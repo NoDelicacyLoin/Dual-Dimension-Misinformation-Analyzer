@@ -1,0 +1,2 @@
+selected_run,learning_rate,best_epoch,selected_method,medium_threshold,high_threshold,test_accuracy,test_macro_f1,low_risk_f1,medium_risk_f1,high_risk_f1,six_label_test_accuracy,six_label_test_macro_f1
+six_label_lr_3eminus05,3e-05,3,aggregate_probability_argmax,0.3,0.55,0.4846093133385951,0.4743087869452418,0.5533980582524272,0.4481236203090508,0.4214046822742475,0.27782162588792425,0.27874535209629764

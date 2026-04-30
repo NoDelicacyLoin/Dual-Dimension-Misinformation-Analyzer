@@ -1,0 +1,4 @@
+﻿Original_Text,LIAR_Label,Ground_Truth,System_Verdict,Right_or_Wrong,Truth_Score,Explanation,Filtered_Sources
+The pope and Donald Trump and Tammy Baldwin all agree on eliminating the carried-interest tax break.,half-true,Neutral,Neutral,True,0.5,"The input does not look like a factual claim, so the system did not run fact-checking.",
+"Medicare costs have slowed down dramatically. In fact, the first two months of this fiscal year, Medicare costs were down even in nominal terms relative to the previous year.",true,True,Neutral,False,0.5,The system could not find enough relevant evidence for this claim.,
+"I am very proud, as governor of Florida, that we signed the first divestment act, as it relates to Iran, divesting any investments in companies that would invest in Iran.",true,True,Neutral,False,0.5,The system could not find enough relevant evidence for this claim.,

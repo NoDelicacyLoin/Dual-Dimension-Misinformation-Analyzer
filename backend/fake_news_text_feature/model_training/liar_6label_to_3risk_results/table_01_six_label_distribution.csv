@@ -1,0 +1,4 @@
+split,samples,pants-fire,false,barely-true,half-true,mostly-true,true
+train,10240,839,1995,1654,2114,1962,1676
+validation,1284,116,263,237,248,251,169
+test,1267,92,249,212,265,241,208

@@ -1,0 +1,4 @@
+method,validation_accuracy,validation_macro_f1
+BERT argmax,0.4945482866043614,0.4929583027952076
+BERT ordinal thresholds,0.48442367601246106,0.4828053430433594
+BERT ordinal plus rules,0.48208722741433024,0.479554387212673

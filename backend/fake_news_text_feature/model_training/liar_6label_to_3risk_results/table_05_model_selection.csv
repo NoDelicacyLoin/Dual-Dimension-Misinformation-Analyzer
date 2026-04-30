@@ -1,0 +1,4 @@
+run_name,learning_rate,best_epoch,risk_val_accuracy,risk_val_macro_f1,six_val_accuracy,six_val_macro_f1,training_time_seconds,best_model_path
+six_label_lr_3eminus05,3e-05,3,0.4929906542056075,0.48822880762906373,0.26947040498442365,0.2734190219104364,1095.0269277095795,/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/liar_6label_to_3risk/six_label_lr_3eminus05/best_model.pt
+six_label_lr_1eminus05,1e-05,2,0.47741433021806856,0.47836943749216165,0.2585669781931464,0.24385064278561364,1078.4863395690918,/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/liar_6label_to_3risk/six_label_lr_1eminus05/best_model.pt
+six_label_lr_2eminus05,2e-05,3,0.48442367601246106,0.4748669268040729,0.2632398753894081,0.2648351934267443,1094.0373227596283,/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/liar_6label_to_3risk/six_label_lr_2eminus05/best_model.pt

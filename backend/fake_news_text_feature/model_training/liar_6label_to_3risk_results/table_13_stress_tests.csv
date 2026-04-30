@@ -1,0 +1,9 @@
+claim_type,claim,low_probability,medium_probability,high_probability,risk_score,predicted_risk
+sensational vague claim,Experts say the government is hiding the shocking truth about crime statistics.,0.0264,0.1489,0.8247,0.8992,high_risk
+neutral local claim,The city council approved a new recycling policy on Tuesday.,0.4792,0.318,0.2028,0.3618,low_risk
+specific number claim,The unemployment rate increased by 4 percent last year.,0.5775,0.1891,0.2334,0.328,low_risk
+absolutist claim,Everyone knows this policy will completely destroy the economy.,0.0505,0.6006,0.3489,0.6492,medium_risk
+plain political claim,A politician said the programme cost more than originally planned.,0.1975,0.3871,0.4154,0.609,high_risk
+negation claim,The report did not say that taxes were increased for every household.,0.3073,0.1721,0.5206,0.6067,high_risk
+short claim,Crime doubled last year.,0.7357,0.1131,0.1512,0.2078,low_risk
+longer claim,"A recent interview claimed that the new policy reduced waiting times, cut costs, and improved access for rural communities.",0.3039,0.3843,0.3118,0.504,medium_risk

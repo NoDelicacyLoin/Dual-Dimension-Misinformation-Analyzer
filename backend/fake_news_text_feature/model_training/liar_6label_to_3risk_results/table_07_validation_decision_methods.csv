@@ -1,0 +1,4 @@
+method,validation_accuracy,validation_macro_f1
+aggregate_probability_argmax,0.4929906542056075,0.48822880762906373
+ordinal_thresholds,0.48130841121495327,0.48263945413186615
+six_argmax_then_map,0.48208722741433024,0.478172778054335

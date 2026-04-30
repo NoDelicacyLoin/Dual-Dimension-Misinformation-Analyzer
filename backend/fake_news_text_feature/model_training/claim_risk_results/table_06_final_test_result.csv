@@ -1,0 +1,2 @@
+selected_run,learning_rate,best_epoch,medium_threshold,high_threshold,test_accuracy,test_macro_f1,low_risk_f1,medium_risk_f1,high_risk_f1
+bert_lr_1eminus05,1e-05,4,0.3,0.6,0.4388318863456985,0.43697123242618535,0.44387755102040816,0.445662100456621,0.4213740458015267

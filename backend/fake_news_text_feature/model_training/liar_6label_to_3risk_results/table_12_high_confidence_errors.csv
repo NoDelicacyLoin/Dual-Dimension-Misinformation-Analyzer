@@ -1,0 +1,31 @@
+label,statement,true_risk,predicted_risk,confidence,low_probability,medium_probability,high_probability
+barely-true,"Black Lives Matter, who are attacking law enforcement officers -- Barack Obama had them to the White House.",medium_risk,high_risk,0.9860373,0.005401566,0.008561123,0.9860373
+true,"Says a YouTube video shows Thomas DiMassimo, the man who rushed Trump at an Ohio rally, dragging the American flag on the ground like it was a piece of garbage.",low_risk,high_risk,0.98091376,0.0064161727,0.01267008,0.98091376
+barely-true,PolitiFact Texas says Congressman Edwards attacks on Bill Flores are false.,medium_risk,high_risk,0.98005927,0.005734378,0.014206387,0.98005927
+barely-true,Says President Obamas new immigration plan is amnesty.,medium_risk,high_risk,0.9783185,0.0057541933,0.01592722,0.9783185
+half-true,Sherrod Brown and his special interest allies in Washington are plotting to spend over $13 million to defeat Josh Mandel.,medium_risk,high_risk,0.9751097,0.008402236,0.016488042,0.9751097
+half-true,Jennifer Carrolls an outsider.,medium_risk,high_risk,0.9435837,0.010586264,0.045829933,0.9435837
+half-true,Says a Ted Cruz ad has got me bull-dozing down a house.I never bulldozed it down. Its false advertising.,medium_risk,high_risk,0.93993914,0.01468171,0.045379177,0.93993914
+true,Sayvideo shows massive alligator strolling across Florida golf course.,low_risk,high_risk,0.9383484,0.022283155,0.039368514,0.9383484
+true,"The words subhuman mongrel, which Ted Nugent called President Barack Obama, were used by the Nazis to justify the genocide of the Jewish community.",low_risk,high_risk,0.916852,0.02572897,0.057418957,0.916852
+barely-true,"Neville Chamberlain told the British people: Accept the Nazis. Yes, they will dominate the continent of Europe, but that is not our problem. Lets appease them. Why? Because it cant be done. We cannot possibly stand against them.",medium_risk,high_risk,0.9129579,0.022213753,0.06482838,0.9129579
+half-true,Says 95 percent of people caught crossing the U.S.-Mexico border said in a survey we are coming because weve been promised amnesty.,medium_risk,high_risk,0.9114993,0.013459938,0.07504078,0.9114993
+mostly-true,Says the director of an anti-abortion group receiving a Texas grant to provide womens health services believes HIV can be spread through the sewer system.,low_risk,high_risk,0.89947677,0.020858383,0.07966489,0.89947677
+barely-true,"Says Vice President Joe Biden ""admits that the American people are being scammed"" with the economic stimulus package.",medium_risk,high_risk,0.890484,0.016482452,0.09303364,0.890484
+mostly-true,The Obama administration is refusing to directly arm the Kurds.,low_risk,high_risk,0.8829949,0.020611646,0.09639348,0.8829949
+true,Obama has more czars than the Romanovs.,low_risk,high_risk,0.8688053,0.0125562865,0.118638344,0.8688053
+barely-true,I did not I did not I do not say that. I do not say that climate change is a hoax perpetrated by the Chinese.,medium_risk,high_risk,0.8667493,0.03936284,0.09388783,0.8667493
+barely-true,Says a Barack Obama black imposter joke got a standing ovation at San Angelo rodeo.,medium_risk,high_risk,0.86499953,0.053436734,0.081563786,0.86499953
+barely-true,Georgia is the Saudi Arabia of pine trees.,medium_risk,low_risk,0.8596139,0.8596139,0.07704183,0.06334433
+half-true,We have SAT scores lower than that of Alabama.,medium_risk,low_risk,0.85772526,0.85772526,0.09177433,0.0505004
+false,Were second only to Boston in college students per capita.,high_risk,low_risk,0.8542552,0.8542552,0.06954431,0.07620054
+false,Some of the wealthiest Americans are African-American now.,high_risk,low_risk,0.85418606,0.85418606,0.0895953,0.05621867
+false,The Republican National Convention is a Super Bowl times four.,high_risk,low_risk,0.8478142,0.8478142,0.08497895,0.067206815
+half-true,"Greg Abbott activated the state guard to monitor Jade Helm 15 in case the troops try to impose martial law, disarm innocent Texans, and detain them in tunnels beneath closed Walmart stores.",medium_risk,high_risk,0.8476869,0.021497808,0.13081527,0.8476869
+half-true,"Says McCain ""supported George Bush's policies 95 percent of the time.""",medium_risk,low_risk,0.844039,0.844039,0.10818193,0.047778975
+pants-fire,"In the 2012 election, there were more votes cast than registered voters in St. Lucie County, and Palm Beach County had 141 percent turnout.",high_risk,low_risk,0.8408439,0.8408439,0.10572508,0.053430945
+barely-true,The war spending bill actually spends more money on the International Monetary Fund than on the war.,medium_risk,low_risk,0.8357883,0.8357883,0.07470181,0.08950982
+half-true,The increase in the current state budget was greater than the inflation rate and the rate of population growth in Georgia.,medium_risk,low_risk,0.83534026,0.83534026,0.08352417,0.08113556
+barely-true,"We spend in tax loopholes annually $1.1 trillion. Thats more than we spend on our defense budget in a year, on Medicare or Medicaid in a year.",medium_risk,low_risk,0.8320608,0.8320608,0.11225349,0.055685733
+false,Beaverton enjoys the most diverse population (by percentage of population) among Oregon cities.,high_risk,low_risk,0.82194984,0.82194984,0.07351983,0.104530275
+false,"More than 1,000 American soldiers have lost their lives in Afghanistan in the last 27 months. This is more than the combined total of the nine years before.",high_risk,low_risk,0.8191585,0.8191585,0.12022613,0.06061531

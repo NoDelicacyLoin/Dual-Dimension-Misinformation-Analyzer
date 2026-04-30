@@ -1,0 +1,4 @@
+split,samples,low_risk,medium_risk,high_risk
+train,10240,3638,3768,2834
+validation,1284,420,485,379
+test,1267,449,477,341

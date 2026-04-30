@@ -1,0 +1,4 @@
+run_name,learning_rate,best_epoch,validation_accuracy,validation_macro_f1,best_model_path
+bert_lr_1eminus05,1e-05,4,0.4945482866043614,0.4929583027952076,/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/claim_risk_bert_3class/bert_lr_1eminus05/best_model.pt
+bert_lr_3eminus05,3e-05,4,0.4945482866043614,0.49047039285478405,/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/claim_risk_bert_3class/bert_lr_3eminus05/best_model.pt
+bert_lr_2eminus05,2e-05,2,0.4883177570093458,0.4854613265350171,/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/claim_risk_bert_3class/bert_lr_2eminus05/best_model.pt

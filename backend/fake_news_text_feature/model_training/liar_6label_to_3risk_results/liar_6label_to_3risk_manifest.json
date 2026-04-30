@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-04-14T20:48:26",
+  "task": "train six LIAR labels and evaluate as three risk labels",
+  "base_model": "bert-base-uncased",
+  "learning_rates": [
+    1e-05,
+    2e-05,
+    3e-05
+  ],
+  "max_epochs": 4,
+  "batch_size": 16,
+  "max_sequence_length": 128,
+  "selected_run": "six_label_lr_3eminus05",
+  "selected_learning_rate": 3e-05,
+  "selected_epoch": 3,
+  "selected_method": "aggregate_probability_argmax",
+  "selected_model_path": "/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/model_copy/liar_6label_to_3risk_selected_model.pt",
+  "results_dir": "/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/liar_6label_to_3risk_results",
+  "figure_dir": "/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/liar_6label_to_3risk_results/figures"
+}

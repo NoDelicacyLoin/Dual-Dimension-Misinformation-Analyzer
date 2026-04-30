@@ -1,0 +1,34 @@
+{
+  "created_at": "2026-04-14T18:23:35",
+  "task": "claim-level misleading language risk classification",
+  "base_model": "bert-base-uncased",
+  "dataset": "LIAR",
+  "label_mapping": {
+    "true": 0,
+    "mostly-true": 0,
+    "half-true": 1,
+    "barely-true": 1,
+    "false": 2,
+    "pants-fire": 2
+  },
+  "risk_label_names": [
+    "low_risk",
+    "medium_risk",
+    "high_risk"
+  ],
+  "learning_rates_tried": [
+    1e-05,
+    2e-05,
+    3e-05
+  ],
+  "max_epochs": 4,
+  "batch_size": 16,
+  "max_sequence_length": 128,
+  "selected_run": "bert_lr_1eminus05",
+  "selected_learning_rate": 1e-05,
+  "selected_epoch": 4,
+  "best_medium_threshold": 0.3,
+  "best_high_threshold": 0.6,
+  "selected_model_path": "/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/model_copy/claim_risk_bert_3class_selected_model.pt",
+  "results_dir": "/content/drive/MyDrive/UoP/COMP3000/fake-news-detector-v1/model_training/claim_risk_results"
+}
