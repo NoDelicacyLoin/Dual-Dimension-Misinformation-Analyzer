@@ -1,0 +1,75 @@
+{
+  "status": "success",
+  "claim": "The Great Wall of China is visible from the Moon with the naked eye and the Earth orbits the Sun.",
+  "analysis_type": "text_feature_analysis",
+  "prediction": {
+    "risk_level": "low_risk",
+    "risk_score": 0.3906,
+    "confidence_level": "low",
+    "probabilities": {
+      "low_risk": 0.5221,
+      "medium_risk": 0.1745,
+      "high_risk": 0.3034
+    }
+  },
+  "influential_words": [
+    {
+      "text": "visible",
+      "rank": 1,
+      "confidence_drop": 0.3412
+    },
+    {
+      "text": "naked",
+      "rank": 2,
+      "confidence_drop": 0.2875
+    },
+    {
+      "text": "moon",
+      "rank": 3,
+      "confidence_drop": 0.2519
+    },
+    {
+      "text": "earth",
+      "rank": 4,
+      "confidence_drop": 0.1784
+    },
+    {
+      "text": "orbits",
+      "rank": 5,
+      "confidence_drop": 0.1622
+    },
+    {
+      "text": "sun",
+      "rank": 6,
+      "confidence_drop": 0.1587
+    },
+    {
+      "text": "great",
+      "rank": 7,
+      "confidence_drop": 0.1495
+    },
+    {
+      "text": "wall",
+      "rank": 8,
+      "confidence_drop": 0.1368
+    }
+  ],
+  "technical_details": {
+    "predicted_class_probability": 0.5221,
+    "uncertainty": {
+      "margin": 0.2187,
+      "entropy": 0.9991,
+      "normalized_entropy": 0.9093
+    },
+    "confidence_rule": {
+      "high": "normalized_entropy < 0.65",
+      "medium": "0.65 <= normalized_entropy < 0.85",
+      "low": "normalized_entropy >= 0.85"
+    },
+    "token_importance_method": "token_occlusion",
+    "token_importance_target": "low_risk",
+    "max_sequence_length": 128,
+    "word_count": 20,
+    "token_count": 24
+  }
+}
