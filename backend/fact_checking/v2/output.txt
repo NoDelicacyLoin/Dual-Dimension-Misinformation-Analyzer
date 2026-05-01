@@ -1,0 +1,86 @@
+get_source_quality, 会影响哪些 evidence 更容易进入最终 selected set. 
+looks_like_low_quality_result是否合理
+
+analyze_page_shell_features是否合理？
+
+
+fetch_oversampled_evidence，search_depth="basic"是否合适？max_results设多少合适？exclude_domains是怎么个说法？
+
+normalize_text_tokens是个什么说法？要不要调整？
+
+
+
+build_claim_profile
+
+会影响 claim-match 的基准结构
+目前抽：
+number_tokens
+claim_terms
+claim_phrases
+如果 claim 本身很泛、很长、很模糊
+claim-match 会更难做高
+，所以我们要准备，如果claim很长，或者是一个什么长难句，怎么搞？或者说一个句子里有多个fact，怎么搞？
+
+
+score_decision_usability，会影响 evidence 是否被过滤。
+
+
+
+below_usability_floor怎么衡量的？
+
+
+
+should_keep_evidence
+
+真正的硬门函数
+会直接决定 evidence 留不留
+两道硬门：
+relevance_score > relevance_threshold
+usability_score >= MIN_USABILITY_FLOOR
+会直接导致：
+below_relevance_threshold
+below_usability_floor_no_anchor
+below_usability_floor_weak_anchor
+还会决定 evidence_quality
+strong / usable / weak
+
+
+
+choose_evidence
+
+这是 final selected evidence 的关键函数
+会影响“最终喂给 LLM 的 evidence 数量”
+关键因素：
+第一次 filter_top_evidence(...)
+use_all_eligible_evidence
+top_k
+summarize_selected_evidence().quality
+original claim fallback evidence set
+compare_evidence_sets(...)
+
+
+
+Claim decomposition / atomic claims
+把长句拆成几个可验证的小事实。
+例如一句话里同时有：
+人物
+数字
+因果
+时间
+通常会拆开分别查。
+Priority by checkability
+不是所有子句都查，只优先查：
+可证伪/可证实的事实
+关键数字
+明确关系
+明确时间地点
+Per-claim retrieval and scoring
+每个 atomic claim 单独检索、筛证据、判定。
+Aggregation back to the original sentence
+最后再把多个子事实合成一个整体判断，比如：
+mostly true
+mixed
+misleading
+
+
+先获取claim，然后看要不要automizer。如果要，
