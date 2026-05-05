@@ -1,5 +1,0 @@
-model_name,run_type,vt,epochs,lr,macro_f1,accuracy,latency_ms_per_sample,avg_generated_tokens,eff_f1_per_s,train_time_sec_total,manifest
-facebook/bart-base,instruction,-,3,5e-05,0.6239,0.65,36.5575,1.0,17.0673,293.05,manifest_instruction_20251208_070030.json
-facebook/bart-base,instruction,-,3,0.0005,0.5839,0.6048,49.7559,1.0,11.7346,386.22,manifest_instruction_20251208_123100.json
-google/flan-t5-small,instruction,-,3,5e-05,0.3046,0.4334,55.8506,1.9969,5.4546,414.39,manifest_instruction_20251208_070955.json
-facebook/bart-base,prompt,20,3,5e-05,0.3866,0.4341,32.5597,1.6165,11.8751,249.74,manifest_prompt_20251208_064940.json

@@ -40,5 +40,8 @@ Thumbs.db
 /previous work/
 /fake-news-detector-v1/
 
-# Local extracted final copy; the GitHub version lives in /dual_dimension_misinformation_analyzer/.
+# Local extracted final copy; master stores the app directly at the repository root.
 /dual_dimension_misinformation_analyzer_final/
+
+# Local old wrapper folder; master stores the app directly at the repository root.
+/dual_dimension_misinformation_analyzer/

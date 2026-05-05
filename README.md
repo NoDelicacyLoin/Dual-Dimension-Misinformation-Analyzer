@@ -1,28 +1,28 @@
-# COMP3000 Dual-Dimension Misinformation Analyzer Repository
+# Dual-Dimension Misinformation Analyzer
 
-This repository contains the final COMP3000 project implementation together with archived development work.
+This is the final COMP3000 project repository. The `master` branch contains the submitted application directly at the repository root.
 
 ## Repository Layout
 
 ```text
-dual_dimension_misinformation_analyzer/
-  Final cleaned implementation used for the submitted system and video walkthrough.
-
-archived/previous work/
-  Earlier research, Colab notebooks, LIAR-related experiments, result tables, and figures.
-  Large model weights and zip archives are intentionally excluded.
+backend/    FastAPI backend, atomizer, text-pattern branch, fact-checking branch
+dataset/    LIAR, FEVER, and ISOT data used for development and evaluation
+frontend/   Static frontend served by the backend
+test/       Development and evaluation notebooks
 ```
 
-## Final System
+Archived development material is kept on archive branches instead of the `master` branch:
 
-The final system is in `dual_dimension_misinformation_analyzer`.
+- `archive/previous-work`
+- `archive/dual-dimension-dev`
+- `archive/fake-news-detector-v1`
 
-It analyzes misinformation risk through two dimensions:
+## System Summary
 
-1. **Text-pattern risk**: a local classifier estimates whether the wording pattern resembles misinformation-style claims.
+The system analyzes misinformation risk through two dimensions:
+
+1. **Text-pattern risk**: a local classifier estimates whether wording resembles misinformation-style claims.
 2. **Evidence-based fact-checking**: factual claims are extracted, searched with Tavily, filtered with NLI and lexical matching, judged at source level with Gemini, and scored by backend logic.
-
-The final pipeline is:
 
 ```text
 user input
@@ -32,23 +32,19 @@ user input
 -> frontend result display
 ```
 
-See `dual_dimension_misinformation_analyzer/README.md` for installation and running instructions.
+## Model Files
 
-## Large Model Files
-
-Large model files are not committed to this repository. This avoids GitHub's normal repository file-size limit and keeps the repository cloneable.
-
-The final project expects the text-pattern model to be available locally at:
+Large model files are not committed to GitHub. The final project expects the local text-pattern model at:
 
 ```text
-dual_dimension_misinformation_analyzer/backend/text_pattern/model_copy/final_six_label_to_3risk_hf/
+backend/text_pattern/model_copy/final_six_label_to_3risk_hf/
 ```
 
-If the project is demonstrated on the original development machine, the model can stay in that local folder. If the project must be reproduced on another machine, the model should be supplied separately, for example through a university submission upload, Git LFS, Hugging Face Hub, Google Drive, or OneDrive.
+If the project is demonstrated on the original development machine, the model can stay in that local folder. If it must be reproduced on another machine, the model should be supplied separately through Git LFS, Hugging Face Hub, cloud storage, or the university submission system.
 
 ## API Keys
 
-The evidence-based branch requires API keys at runtime:
+Runtime API keys are required for the evidence-based branch:
 
 ```powershell
 $env:GEMINI_API_KEY="your-gemini-api-key"
@@ -56,20 +52,3 @@ $env:TAVILY_API_KEY="your-tavily-api-key"
 ```
 
 No API keys are included in this repository.
-
-## Development History
-
-The archive folders and Git branches are included to show the project iteration process:
-
-- early fake-news and LIAR experiments;
-- model training and prompt/fine-tuning exploration;
-- progressive fact-checking branch versions;
-- frontend and backend integration work;
-- final consolidation into the dual-dimension analyzer.
-
-Historical Git branches also preserve earlier snapshots:
-
-- `archive/fake-news-detector-v1`
-- `archive/dual-dimension-dev`
-
-Model checkpoints, generated caches, and compressed archive exports are excluded. Notebooks, datasets, result tables, source code, and figures are retained where practical.

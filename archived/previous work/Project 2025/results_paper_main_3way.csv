@@ -1,4 +1,0 @@
-model_name,run_type,finetune_method,vt,epochs,lr,macro_f1,accuracy,latency_ms_per_sample,eff_f1_per_s,train_time_sec_total,trainable_params,total_params,trainable_ratio,manifest
-facebook/bart-base,instruction,full,-,3,5e-05,0.6239391061106052,0.6500389711613406,36.55754725138347,17.06731312744164,293.0545370578766,0,0,0.0,manifest_instruction_20251208_070030.json
-facebook/bart-base,prompt,prompt_tuning,20,3,5e-05,0.38664989727651056,0.4341387373343726,32.55972544352213,11.875096979770014,249.73664689064026,0,0,0.0,manifest_prompt_20251208_064940.json
-facebook/bart-base,instruction,lora,-,3,0.0005,0.5838639409651696,0.6048324240062354,49.75588003794352,11.734571683184353,386.2222592830658,0,0,0.0,manifest_instruction_20251208_123100.json
