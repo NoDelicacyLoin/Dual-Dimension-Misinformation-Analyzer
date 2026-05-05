@@ -39,3 +39,6 @@ Thumbs.db
 /poster/
 /previous work/
 /fake-news-detector-v1/
+
+# Local extracted final copy; the GitHub version lives in /dual_dimension_misinformation_analyzer/.
+/dual_dimension_misinformation_analyzer_final/
