@@ -1,0 +1,43 @@
+{
+  "config": {
+    "model_name": "facebook/bart-base",
+    "run_type": "instruction",
+    "seed": 42,
+    "epochs": 3,
+    "lr": 5e-05,
+    "train_bs": 8,
+    "eval_bs": 16,
+    "grad_accum": 4,
+    "max_input_len": 256,
+    "max_target_len": 64,
+    "max_new_tokens": 64,
+    "num_virtual_tokens": 0,
+    "train_limit": 8000,
+    "valid_limit": 1000,
+    "test_limit": 2000,
+    "artifacts_dir": "/content/drive/MyDrive/liar_runs/artifacts_liar_v1",
+    "fp16": true
+  },
+  "ckpt_dir": "/content/drive/MyDrive/liar_runs/artifacts_liar_v1/instruction_facebook_bart-base",
+  "metrics": {
+    "macro_f1": 0.6239391061106052,
+    "accuracy": 0.6500389711613406,
+    "avg_generated_tokens": 1.0,
+    "latency_ms_per_sample": 36.55754725138347,
+    "n_test": 1283,
+    "n_latency_samples": 300
+  },
+  "training_cost": {
+    "train_time_sec_total": 293.0545370578766,
+    "train_time_sec_per_epoch": 97.68484568595886,
+    "train_time_sec_per_1k_train_samples": 36.63181713223457,
+    "n_train_samples": 8000
+  },
+  "efficiency": {
+    "macro_f1_per_ms": 0.01706731312744164,
+    "macro_f1_per_s": 17.06731312744164
+  },
+  "artifact_info": {
+    "checkpoint_size_mb": 536.6664772033691
+  }
+}

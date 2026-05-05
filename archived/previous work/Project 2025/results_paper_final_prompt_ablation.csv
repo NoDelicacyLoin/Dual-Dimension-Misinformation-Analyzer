@@ -1,0 +1,5 @@
+model_name,run_type,vt,epochs,lr,macro_f1,accuracy,latency_ms_per_sample,avg_generated_tokens,eff_f1_per_s,train_time_sec_total,manifest
+facebook/bart-base,prompt,10,3,5e-05,0.3023,0.4334,48.4473,2.0,6.2406,249.47,manifest_prompt_20251208_001327.json
+facebook/bart-base,prompt,20,3,5e-05,0.3866,0.4341,32.5597,1.6165,11.8751,249.74,manifest_prompt_20251208_064940.json
+facebook/bart-base,prompt,30,3,5e-05,0.3027,0.4318,48.8984,0.6228,6.191,215.62,manifest_prompt_20251208_064409.json
+facebook/bart-base,prompt,50,3,5e-05,0.3077,0.4349,27.571,0.9938,11.1601,266.37,manifest_prompt_20251208_043945.json

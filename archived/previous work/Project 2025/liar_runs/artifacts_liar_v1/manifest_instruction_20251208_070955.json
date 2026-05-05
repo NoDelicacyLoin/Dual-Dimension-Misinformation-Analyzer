@@ -1,0 +1,43 @@
+{
+  "config": {
+    "model_name": "google/flan-t5-small",
+    "run_type": "instruction",
+    "seed": 42,
+    "epochs": 3,
+    "lr": 5e-05,
+    "train_bs": 8,
+    "eval_bs": 16,
+    "grad_accum": 4,
+    "max_input_len": 256,
+    "max_target_len": 64,
+    "max_new_tokens": 64,
+    "num_virtual_tokens": 0,
+    "train_limit": 8000,
+    "valid_limit": 1000,
+    "test_limit": 2000,
+    "artifacts_dir": "/content/drive/MyDrive/liar_runs/artifacts_liar_v1",
+    "fp16": true
+  },
+  "ckpt_dir": "/content/drive/MyDrive/liar_runs/artifacts_liar_v1/instruction_google_flan-t5-small",
+  "metrics": {
+    "macro_f1": 0.304643335060404,
+    "accuracy": 0.4333593141075604,
+    "avg_generated_tokens": 1.9968823070927513,
+    "latency_ms_per_sample": 55.85063695907593,
+    "n_test": 1283,
+    "n_latency_samples": 300
+  },
+  "training_cost": {
+    "train_time_sec_total": 414.3936290740967,
+    "train_time_sec_per_epoch": 138.13120969136557,
+    "train_time_sec_per_1k_train_samples": 51.799203634262085,
+    "n_train_samples": 8000
+  },
+  "efficiency": {
+    "macro_f1_per_ms": 0.005454608069799253,
+    "macro_f1_per_s": 5.454608069799253
+  },
+  "artifact_info": {
+    "checkpoint_size_mb": 296.6996793746948
+  }
+}

@@ -1,0 +1,41 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+.env
+.env.*
+
+*.log
+.DS_Store
+Thumbs.db
+
+# Do not commit local model checkpoints or trained weight files.
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.bin
+**/model_copy/
+
+# Do not commit compressed exports/backups.
+*.zip
+*.7z
+*.rar
+
+# Local Codex workspace files.
+.codex_tmp/
+
+# Local assessment/support material that is not part of the public code repository.
+/COMP3000*.pdf
+/Lecture *.pdf
+/report/
+/report materials/
+/poster/
+/previous work/
+/fake-news-detector-v1/

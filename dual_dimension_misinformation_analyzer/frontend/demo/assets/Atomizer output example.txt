@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "original_text": "I saw this claim in a short online post. The Great Wall of China is visible from the Moon with the naked eye and the Earth orbits the Sun.",
+  "ignored_sentences": [
+    "I saw this claim in a short online post."
+  ],
+  "claim_groups": [
+    {
+      "claim_group_id": "claim_1",
+      "original_sentence": "The Great Wall of China is visible from the Moon with the naked eye and the Earth orbits the Sun.",
+      "text_feature_text": "The Great Wall of China is visible from the Moon with the naked eye and the Earth orbits the Sun.",
+      "atomization_applied": true,
+      "fact_check_claims": [
+        {
+          "fact_claim_id": "claim_1_fact_1",
+          "claim": "The Great Wall of China is visible from the Moon with the naked eye."
+        },
+        {
+          "fact_claim_id": "claim_1_fact_2",
+          "claim": "The Earth orbits the Sun."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "ignored_sentence_count": 1,
+    "text_feature_unit_count": 1,
+    "fact_check_claim_count": 2
+  }
+}

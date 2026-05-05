@@ -1,0 +1,4 @@
+model_name,run_type,num_virtual_tokens,macro_f1,accuracy,latency_ms_per_sample,avg_generated_tokens,train_time_sec_total,macro_f1_per_s,manifest
+facebook/bart-base,instruction,0,0.6239391061106052,0.6500389711613406,36.55754725138347,1.0,,17.06731312744164,manifest_instruction_20251208_070030.json
+facebook/bart-base,prompt,20,0.38664989727651056,0.4341387373343726,32.55972544352213,1.6165237724084178,,11.875096979770014,manifest_prompt_20251208_064940.json
+google/flan-t5-small,instruction,0,0.304643335060404,0.4333593141075604,55.85063695907593,1.9968823070927513,,5.454608069799253,manifest_instruction_20251208_070955.json

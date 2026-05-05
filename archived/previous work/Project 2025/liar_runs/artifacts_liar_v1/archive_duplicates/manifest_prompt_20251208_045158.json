@@ -1,0 +1,43 @@
+{
+  "config": {
+    "model_name": "facebook/bart-base",
+    "run_type": "prompt",
+    "seed": 42,
+    "epochs": 3,
+    "lr": 5e-05,
+    "train_bs": 8,
+    "eval_bs": 16,
+    "grad_accum": 4,
+    "max_input_len": 256,
+    "max_target_len": 64,
+    "max_new_tokens": 64,
+    "num_virtual_tokens": 50,
+    "train_limit": 8000,
+    "valid_limit": 1000,
+    "test_limit": 2000,
+    "artifacts_dir": "artifacts_liar_v1",
+    "fp16": true
+  },
+  "ckpt_dir": "artifacts_liar_v1/prompt_facebook_bart-base_m50",
+  "metrics": {
+    "macro_f1": 0.3076937962427498,
+    "accuracy": 0.4349181605611847,
+    "avg_generated_tokens": 0.9929851909586905,
+    "latency_ms_per_sample": 29.63687737782796,
+    "n_test": 1283,
+    "n_latency_samples": 300
+  },
+  "training_cost": {
+    "train_time_sec_total": 176.0990285873413,
+    "train_time_sec_per_epoch": 58.699676195780434,
+    "train_time_sec_per_1k_train_samples": 22.012378573417664,
+    "n_train_samples": 8000
+  },
+  "efficiency": {
+    "macro_f1_per_ms": 0.010382126035752427,
+    "macro_f1_per_s": 10.382126035752428
+  },
+  "artifact_info": {
+    "checkpoint_size_mb": 4.896125793457031
+  }
+}

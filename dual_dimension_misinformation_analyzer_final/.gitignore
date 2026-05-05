@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.venv/
+venv/
+env/
+.env
+.env.*
+
+*.log
+.DS_Store
+Thumbs.db
+
+# Large local model weights should be supplied separately or handled with Git LFS.
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.bin
+backend/text_pattern/model_copy/
+
+# Local notebook checkpoints.
+.ipynb_checkpoints/

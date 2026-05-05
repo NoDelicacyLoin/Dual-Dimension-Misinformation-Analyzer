@@ -1,0 +1,9 @@
+fastapi
+uvicorn[standard]
+pydantic
+requests
+torch
+transformers
+google-genai
+sentencepiece
+protobuf
